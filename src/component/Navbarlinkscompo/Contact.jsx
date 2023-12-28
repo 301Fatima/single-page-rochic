@@ -23,6 +23,7 @@ const Contact = () => {
 
 
   return (
+    <div id='Contact'>
     <section className="text-black bg-slate-200   body-font relative">
       <h1 className='text-4xl px-[10rem] py-12'>Contact Us</h1>
       <div className="container px-5 mx-auto">
@@ -86,6 +87,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
+      </div>
   );
 };
 
